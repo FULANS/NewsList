@@ -1,0 +1,72 @@
+/**index.wxss**/
+.mainscroll {
+  height: 1500rpx;
+  /*background-color: rebeccapurple*/
+}
+
+.holderview{
+  width: 100%;
+  height: 170rpx;
+  padding: 30rpx 30rpx 20rpx 20rpx;
+  margin: 7rpx 0 6rpx 0;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eeeeee;
+  /*background-color: yellow; */
+  display:flex;
+  
+}
+
+.newsimage{
+  margin-left:10rpx;
+  margin-top: 10rpx;
+  width: 200rpx;
+  height: 150rpx;
+  /*background-color: red;*/
+}
+
+.newsimageframe{
+
+  margin-left:0rpx;
+  margin-top: 0rpx;
+  width: 200rpx;
+  height: 150rpx;
+  /*background-color: pink;*/
+
+}
+
+.rightView{
+
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+  width: 500rpx;
+  /*background-color: yellow;*/
+}
+
+
+.newscontent{
+  margin-left:10rpx;
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+  height: 110rpx;
+  /*background-color: blue;*/
+}
+
+.newsTitle{
+   font-size: 28rpx;
+   height: 110rpx;
+   word-break: break-all;
+}
+
+.newstime{
+  margin-left:10rpx;
+  margin-top: 0rpx;
+  margin-right: 30rpx;
+  height: 40rpx;
+  /*background-color: green;*/
+}
+
+.newstimeTitle{ 
+ font-size: 26rpx;
+}

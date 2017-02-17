@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+   
+    <scroll-view scroll-y="true" class="mainscroll"  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+
+        <block wx:for="{{newslistArr}}">
+          
+          <view id="{{item.url}}"class="holderview" style="flex-direction:row" bindtap="enternewsInfo">
+
+             <view class="newsimage">
+
+                 <image class="newsimageframe" src="{{item.thumbnail_pic_s}}" mode="scaleToFill"></image>  
+             </view>
+
+             <view class="rightView">
+                <view class="newscontent">
+                    <text class="newsTitle">{{item.title}}</text>
+                </view>
+                <view class="newstime">
+                    <text class="newstimeTitle">{{item.date}}</text>
+                </view>
+             </view>
+          </view>
+
+          
+        </block>
+
+  </scroll-view>
+
+
+
+
+</view>

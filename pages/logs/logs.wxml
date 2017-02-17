@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+
+var WxParse = require('../../wxParse/wxParse.js');
+
+<view class="duanzi-content"> 
+<text class="dz-content">{{newsDetail}}</text> 
+</view>
