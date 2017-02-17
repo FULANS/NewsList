@@ -50,13 +50,23 @@
   margin-top: 10rpx;
   margin-right: 30rpx;
   height: 110rpx;
+  overflow: hidden;
+  word-wrap: break-word;
   /*background-color: blue;*/
+           /*white-space: nowrap;
+    overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .newsTitle{
-   font-size: 28rpx;
-   height: 110rpx;
-   word-break: break-all;
+   font-size: 40rpx;
+   height: 100.0%;
+   line-height: 55rpx;
+   /*line-height: 55rpx;*/
+   /*word-break: break-all;*/
 }
 
 .newstime{
